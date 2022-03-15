@@ -1,0 +1,28 @@
+package satu;
+
+
+public class Nomor_Satu {
+
+	public static void main(String[] args) {
+		int bel_Masuk = 5, 
+				pel_1 = 5,
+				pel_2 = 5,
+				pel_3 = 5,
+				pel_4 = 5,
+				ist_1 = 5,
+				pel_5 = 5,
+				pel_6 = 5,
+				pel_7 = 5,
+				pel_8 = 5,
+				ist_2 = 4,
+				pel_9 = 4,
+				pel_10 = 4,
+				pel_11 = 4,
+				eskul = 4,
+				bel_Pulang = 5;
+		int Jumlah_bel_berbunyi = bel_Masuk + pel_1 + pel_2 + pel_3 + pel_4 + ist_1 + pel_5 + pel_6 + pel_7 + pel_8 + ist_2 + pel_9
+				+ pel_10 + pel_11 + eskul + bel_Pulang;
+		System.out.print("Jumlah Bel Berbunyi Selama Seminggu : " +Jumlah_bel_berbunyi +" Kali");
+	}
+
+}
